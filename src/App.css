@@ -4,7 +4,7 @@
   padding: 0;
 }
 .App{
-  width: 100vw;
+  width: 100%;
   background-color: #2C402F;
   
 }
@@ -33,7 +33,7 @@ li a {
 }
 
 .secTwo{
-  width: 100vw;
+  width: 100%;
   height: 22rem;
 position: relative;
 }
@@ -84,7 +84,7 @@ h2{
 }
 
 .secThree{
-  width: 100vw;
+  width: 100%;
   background-color: white;
   height: fit-content;
   display: flex;
