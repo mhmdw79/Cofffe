@@ -1,0 +1,244 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  width: 100vw;
+  background-color: #2C402F;
+  
+}
+
+.secOne{
+  display: flex;
+  padding: 1rem 5rem;
+   justify-content: space-between;
+}
+
+
+ul{
+  display: flex;
+  
+}
+
+li{
+  padding:1rem 2rem;
+  list-style: none;
+  font-size: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.secTwo{
+  width: 100vw;
+  height: 22rem;
+position: relative;
+}
+.iconButton{
+  width: 20px;
+  text-align: center;
+}
+.text-secTwo{
+  padding: 8rem 25rem;
+}
+h1{
+  font-size: 5rem;
+  word-spacing: 10px;
+  -webkit-text-stroke: 1px white;
+ -webkit-text-fill-color: transparent;
+}
+h2{
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.sec-Icon{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 5rem;
+  top: 14rem;
+  justify-content: center;
+  align-items: center;
+
+}
+.Button-Icon{
+  color: #BF3676;
+  background-color: transparent;
+  width: 9rem;
+  height: 2.2rem;
+  border: 1px solid #BF3676;
+  border-radius: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-right: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.secThree{
+  width: 100vw;
+  background-color: white;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+  padding-right: 26rem;
+}
+
+.secThree p {
+  color: #898989;
+  font-size: 2.2rem;
+font-style: italic;
+padding-right: 5rem;
+}
+.sub-secThree{
+  display: flex;
+  align-items: center;
+}
+
+.sub-secThree img {
+  width: 150px;
+  padding-bottom: 2rem;
+  
+}
+
+.sub-secThree button{
+ margin-left: 0.8rem;
+ cursor: pointer;
+}
+
+
+.sub-secThree button:first-child{
+       
+  width: 7rem;
+  height: 3rem;
+  border: 3px solid #2C402F;
+  border-radius: 5px;
+  background-color: white;
+  color: #D94D1A;
+  font-weight: 600;
+}
+
+.sub-secThree button:nth-child(2){
+       
+  width: 11rem;
+  height: 3rem;
+  background-color: #D94D1A;
+  color: white;
+  border: 3px solid #2C402F;
+  border-radius: 5px;
+  font-weight: 600;
+
+}
+
+@media screen and (max-width:1400px) {
+  .text-secTwo{
+    padding: 8rem 12rem; 
+
+  }
+  .sec-Icon{
+    right: 0;
+  }
+
+  .secThree{
+    padding-right: 20rem;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+ .app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .secTwo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+
+ }
+ .text-secTwo{
+  padding: 3rem 12rem;
+}
+.sec-Icon{
+ right: 10rem;
+ top: 28rem;
+ 
+
+}
+.secThree{
+  padding-top: 31rem;
+  padding-right: 0rem;
+  padding-left: 5rem;
+}
+
+.Button-Icon{
+  
+  margin-right: 6rem;
+ 
+  
+} 
+}
+
+
+@media screen and (max-width:426px) {
+  .app{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+  }
+.secOne{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .secOne ul{
+    display: none;
+  }
+
+  .text-secTwo{
+    padding: 0 0;
+  }
+  .sec-Icon{
+    right: 0;
+    left: 3rem;
+  }
+  .secThree{
+    padding-left: 0;
+    padding-top: 23rem;
+
+  }
+  .secThree p {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+  }
+  .sub-secThree img {
+    display: none;
+  }
+  .icon{
+    width: 17rem;
+  }
+  .Button-Icon{
+    margin-right: 4rem;
+  }
+  h1{
+    font-size: 3.8rem;
+  }
+ }
